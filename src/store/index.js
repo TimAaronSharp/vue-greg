@@ -14,7 +14,7 @@ var store = new Vuex.Store({
                 description: 'Do you have this car? Its grey poupon get it!!!',
                 imgUrl: 'http://loremflickr.com/200/200/car'
             },
-            'lk34kwsefdceev234blk23b4bjk':{
+            'lk34kwsefdceev234blk23b4bjk': {
                 id: 'lk34kwsefdceev234blk23b4bjk',
                 make: 'Cevy',
                 model: 'Oregon',
@@ -31,6 +31,38 @@ var store = new Vuex.Store({
                 imgUrl: 'http://loremflickr.com/200/200/car'
             }
 
+        },
+        properties: {
+            'dsakjfh3skdhjf': {
+                id: 'dsakjfh3skdhjf',
+                model: "Rambler",
+                year: 1976,
+                color: 'Brown',
+                floors: 3,
+                bedrooms: 4,
+                bathrooms: 2,
+                imgUrl: 'http://loremflickr.com/200/200/house'
+            },
+            'dsakjfh3skdd97': {
+                id: 'dsakjfh3skdd97',
+                model: "Duplex",
+                year: 1960,
+                color: 'White',
+                floors: 2,
+                bedrooms: 3,
+                bathrooms: 1,
+                imgUrl: 'http://loremflickr.com/200/200/house'
+            },
+            'dsakjfh3sk245f': {
+                id: 'dsakjfh3sk245f',
+                model: "Mansion",
+                year: 2017,
+                color: 'Gold',
+                floors: 5,
+                bedrooms: 37,
+                bathrooms: 25,
+                imgUrl: 'http://loremflickr.com/200/200/house'
+            }
         }
     },
     mutations: {},
